@@ -48,4 +48,4 @@ A **Chrome Extension** that tracks the time spent on different websites and prov
 
 ## Output
 
-![Image](https://github.com/user-attachments/assets/a03e141b-6a1c-41b8-b560-eb42e0f279be)
+![Image](https://github.com/user-attachments/assets/0af454d6-5c87-4d38-a085-d0b98aae21cb)
