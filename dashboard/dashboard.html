@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Productivity Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="dashboard-wrapper">
+        <h2 class="dashboard-title">Productivity Dashboard</h2>
+
+        <div class="table-container">
+            <h3 class="section-title productive-title">✅ Productive Time</h3>
+            <table id="productive-table" class="productivity-table">
+                <thead>
+                    <tr>
+                        <th>Website</th>
+                        <th>Time Spent (s)</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+
+        <div class="table-container">
+            <h3 class="section-title unproductive-title">❌ Unproductive Time</h3>
+            <table id="unproductive-table" class="productivity-table">
+                <thead>
+                    <tr>
+                        <th>Website</th>
+                        <th>Time Spent (s)</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+
+        <button id="download-report" class="download-btn">
+            📊 Download Report
+        </button>
+    </div>
+    <script src="dashboard.js"></script>
+</body>
+</html>
